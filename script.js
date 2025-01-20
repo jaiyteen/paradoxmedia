@@ -1,4 +1,4 @@
-//preloading images
+  //preloading images
   let myImages = document.getElementsByTagName('IMG');
   for (i = 0; i < myImages.length; i++) {
     let allImages = document.createElement('img');
@@ -84,14 +84,14 @@ const userReviews = function(image, name, review) {
   this.review = review;
 }
 
-let user_1 = new userReviews('/Paradox Media/usersReview/user1.jpg', 'Alex', rv1);
-let user_2 = new userReviews('/Paradox Media/usersReview/user2.jpg', 'David', rv2);
-let user_3 = new userReviews('/Paradox Media/usersReview/user3.jpg', 'Racheal', rv3);
-let user_4 = new userReviews('/Paradox Media/usersReview/user4.jpg', 'Mark', rv4);
-let user_5 = new userReviews('/Paradox Media/usersReview/user5.jpg', 'James', rv5);
-let user_6 = new userReviews('/Paradox Media/usersReview/user6.jpg', 'Tom', rv6);
-let user_7 = new userReviews('/Paradox Media/usersReview/user7.jpg', 'Emily and Ryan', rv7);
-let user_8 = new userReviews('/Paradox Media/usersReview/user8.jpg', 'chris', rv8);
+let user_1 = new userReviews('usersReview/user1.jpg', 'Alex', rv1);
+let user_2 = new userReviews('usersReview/user2.jpg', 'David', rv2);
+let user_3 = new userReviews('usersReview/user3.jpg', 'Racheal', rv3);
+let user_4 = new userReviews('usersReview/user4.jpg', 'Mark', rv4);
+let user_5 = new userReviews('usersReview/user5.jpg', 'James', rv5);
+let user_6 = new userReviews('usersReview/user6.jpg', 'Tom', rv6);
+let user_7 = new userReviews('usersReview/user7.jpg', 'Emily and Ryan', rv7);
+let user_8 = new userReviews('usersReview/user8.jpg', 'chris', rv8);
 
 const rvws = [user_1, user_2, user_3, user_4, user_5, user_6, user_7, user_8];
 let x = 0;
